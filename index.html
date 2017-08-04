@@ -1,0 +1,86 @@
+<DOCTYPE html>
+<html>
+<title>SBCS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card-2">
+    <a href="#home" class="w3-bar-item w3-button"><b>SISTEMA DE BUSCA DE CURSOS SUPERIORES</b></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">BUSCA</a>
+      <a href="#about" class="w3-bar-item w3-button">SOBRE</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="http://1.bp.blogspot.com/-75pPKkpXCCA/VA4uXb7eHAI/AAAAAAAACaw/EWng5BeQMgI/s1600/Fundo%2Bem%2Bdegrad%C3%AA%2Bpara%2Bo%2Btutorial%2Bde%2BTexto%2BMet%C3%A1lico.png" alt="Fundo" width="1500" height="800">
+  <style>
+  .oi{
+  width: 100%;
+  }
+  </style>
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 id =oi class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>SBCS</b></span> <span class="w3-hide-large w3-text-light-grey"></span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">BUSCA</h3>
+    <p>Responda o formulário de acordo com suas necessidades.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input" type="text" placeholder="Curso" required name="NomeCurso">
+      <input class="w3-input w3-section" type="text" placeholder="Localização" required name="Estado">
+      <input class="w3-input w3-section" type="text" placeholder="Área do Conhecimento" required name="ÁreaConhecimento">
+      <input class="w3-input w3-section" type="text" placeholder="Instituição" required name="Instituição">
+       <input class="w3-input w3-section" type="text" placeholder="Nota de Corte" required name="NotaCorte">
+          <input class="w3-input w3-section" type="text" placeholder="Forma de Ingresso" required name="FormaIngresso">
+          <input class="w3-input w3-section" type="text" placeholder="Bolsa Estudantil" required name="Bolsa">
+          
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> BUSCAR
+      </button>
+    </form>
+  </div>
+ 
+
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">SOBRE</h3>
+    <p>	Olá, somos alunos do Instituto Federal Catarinense Campus Avançado Sombrio, da turma do 3º A. Este sistema foi desenvolvido para nosso Trabalho de Conclusão de Curso de Técnico em Informática. Ele foi feito para facilitar a vida de vocês na hora da busca sobre seu curso superior tão desejado.
+    
+    <br>Att. João Vitor G. Cardoso e Ingrid Domingos Marcolino Ely
+    </p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/19145936_1222795294510078_3054957875323782055_n.jpg?oh=6c911001ae23cf74becf875d7872671e&oe=5A005F75" alt="João" style="width:100%">
+      <h3>João Vitor</h3>
+      <p class="w3-opacity">Fundador</p>
+      <p>Espero que vocês aproveitem nosso sistema que foi feito com carinho para vocês!</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contato</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/19510323_687866911399870_1934800091600276540_n.jpg?oh=9432f0183a29613fae3447e6cc7d3154&oe=59C9B5F6" alt="Ingrid" style="width:100%">
+      <h3>Ingrid</h3>
+      <p class="w3-opacity">Fundadora</p>
+      <p>O desenvolvimento deste sistema me proporcionou uma experiência incrível, aproveitem!</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contato</button></p>
+  
+<!-- End page content -->
+</div>
+
+</body>
+</html>
